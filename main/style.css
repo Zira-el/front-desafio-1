@@ -16,7 +16,7 @@ body{
                          "footer footer footer";
     width: 100vw;
     height: 100vh;
-}
+} 
 
 /* Header */
 
@@ -58,6 +58,33 @@ a{
 
 .conteinerconteudo{
     grid-area: content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3.5rem 3rem 4rem 6.3rem;
+}
+
+.conteudo1{
+    background-color: rgba(255, 255, 255, 1);
+    margin-bottom: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 45rem;
+}
+
+.conteudo1 p:nth-child(4),
+.conteudo1 p:nth-child(5){
+    text-align: left;
+    color: rgba(84, 84, 84, 1);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin: 0 1.5rem 1.5rem 1.5rem;
+}
+
+.conteudo1 img{
+    margin-bottom: 1.5rem;
 }
 
 .sidebar{
