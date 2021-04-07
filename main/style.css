@@ -26,6 +26,8 @@ body{
     justify-content:space-between;
     align-items: center;
     background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
+
 }
 
 a{
@@ -72,6 +74,27 @@ a{
     flex-direction: column;
     justify-content: center;
     max-width: 45rem;
+    border: 1px solid rgba(254, 0, 120, 1);
+}
+
+.conteudo1 h2{
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    margin: 1.5rem 0 0.5rem 1.5rem;
+    font-size: 1.5rem;
+}
+
+.conteudo1 p:nth-child(2){
+    color: rgba(146, 146, 146, 1);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    margin: 0 0 0.8rem 1.5rem;
+}
+
+.conteudo1 img{
+    margin-bottom: 1.5rem;
 }
 
 .conteudo1 p:nth-child(4),
@@ -83,13 +106,29 @@ a{
     margin: 0 1.5rem 1.5rem 1.5rem;
 }
 
-.conteudo1 img{
-    margin-bottom: 1.5rem;
+.botao{
+    align-self: flex-end;
+    border: 1px solid rgba(254, 0, 120, 1);
+    margin: 0 1.5rem 1.5rem 0;
+    border-radius: 90px;
+    padding: 0.6rem 1.7rem 0.6rem  1.7rem;
 }
+
+.botao a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 0.87rem;
+    color: rgba(84, 84, 84, 1);
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Sidebar */
 
 .sidebar{
     grid-area: sidebar;
+    margin: 3.5rem 8.75rem 0 0;
 }
+
 
 
 
