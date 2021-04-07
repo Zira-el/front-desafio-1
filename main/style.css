@@ -69,7 +69,6 @@ a{
     justify-content: center;
     align-items: center;
     margin: 3.5rem 3rem 4rem 6.3rem;
-
     border-radius: 20px;
 }
 
@@ -200,7 +199,7 @@ form input:hover {
 }
 
 a .flexfilhos:hover{
-    color: rgba(254, 0, 120, 1)!important;
+    color: rgba(254, 0, 120, 1);
     border-bottom-color: rgba(254, 0, 120, 1);
 }
 
