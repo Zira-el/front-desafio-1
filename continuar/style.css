@@ -172,7 +172,8 @@ a {
     height: 1.5rem;
 }
 
-.formulario input:hover{
+.formulario input:hover,
+textarea:hover{
     border: 1px solid rgba(254, 0, 120, 1);
 }
 
@@ -184,9 +185,11 @@ a {
     margin-top: 1.5rem;
 }
 
-.comentarios input {
+.comentarios textarea {
     width: 45.74rem;
     height: 11rem;
+    border: none;
+    outline: none;
 }
 
 .buttoncoment{
